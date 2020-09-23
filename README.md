@@ -52,4 +52,9 @@ Podemos ver los ultimos commits hechos por si queremos regresar a una version an
 ```
 git log
 ```
+## Septimo Paso
+Para juntar una rama con la principal primero debemos dirigirnos a la rama principal haciendo un checkout y colocamos el siguiente comando
+```
+git merge <nombre de la rama con la que haremos el merge>
+```
 
