@@ -29,6 +29,7 @@ Podemos revisar el estado de git con el siguiente comando
 git status
 ```
 Con este comando podemos ver si hay files que no han sido incluidos, donde se han hecho modificaciones y si hay algun conflicto
+
 ## Quinto Paso
 Podemos crear una nueva rama y trabajar desde esta para no modificar la rama principal.
 Primero creamos la rama con el siguiente comando
@@ -40,3 +41,15 @@ Para cambiarnos de rama usamos el siguiente comando
 git checkout <nombre de la rama>
 ```
 Ahora podemos trabajar libremente sin afectar a las otras ramas
+Cuando hagamos el push no olvidar de colocar el nombre de la rama
+
+## Sexto Paso
+Podemos ver la diferencia entre 2 ramas usando el siguiente comando
+```
+git diff <nombre de la rama>..<nombre de la rama>
+```
+Podemos ver los ultimos commits hechos por si queremos regresar a una version anterior usando el siguiente comando
+```
+git log
+```
+
